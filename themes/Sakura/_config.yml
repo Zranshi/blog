@@ -64,18 +64,14 @@ homePageSortType: -1
 homeArticleShown: 12
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg2.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg3.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg7.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg8.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg9.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg6.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg12.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg11.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg10.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg5.jpg.webp
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.42/2020.12.16/4.jpg
-  - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg4.jpg.webp
+    - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/80438411_p0.png
+    - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/89181465_p0.png
+    - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/87706186_p0.jpg
+    - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/89193760_p0.jpg
+    - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/81943456_p0.jpg
+    - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/60006073_p0.jpg
+    - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg8.jpg.webp
+    - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg9.jpg.webp
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot

@@ -9,15 +9,17 @@ authorDesc:
 categories: 技术
 comments: true
 tags: 
- - Go
- - 吐槽
+ - golang
+ - leetcode
 keywords: Go
 description: Go的slice、map真的把我搞疯！
 photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/57648299_p0.png
 ---
+
 # 吐槽Go语言的机制
 
 ## 起因
+
 今天突发奇想想用Go来写一写LeetCode困难题。因为平时感觉Go还是挺靠谱的（而且速度比Python快多了），比起Python的方便快捷，Go更给我一种我能完全掌握我在干嘛的感觉（现在看来这就是幻觉）。
 
 所以打开了今天的[拦路虎](https://leetcode-cn.com/problems/bst-sequences-lcci/)
@@ -39,6 +41,7 @@ photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/57648299_p0.png
 ## 题目解答
 
 想到这里，我随手写了一个低效率版本，并且十分合理地以低效率的时间和空间通过了该题。
+
 ```go
 // 执行用时：28 ms, 在所有 Go 提交中击败了6.98%的用户
 // 内存消耗：14.1 MB, 在所有 Go 提交中击败了6.98%的用户

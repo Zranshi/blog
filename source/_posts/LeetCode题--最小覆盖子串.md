@@ -10,7 +10,7 @@ categories: 技术
 comments: true
 tags: 
  - LeetCode
- - Python3
+ - Python
  - 滑动窗口
 keywords: LeetCode
 description: 滑动窗口滑动窗口滑动窗口!

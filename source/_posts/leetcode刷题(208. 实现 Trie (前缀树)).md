@@ -11,7 +11,7 @@ comments: true
 tags: 
  - LeetCode
  - 前缀树\字典树
- - Golang
+ - golang
 keywords: LeetCode
 description: 学习前缀树
 photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.43/2020.12.16/52.jpg

@@ -10,8 +10,8 @@ categories: 技术
 comments: true
 tags: 
  - LeetCode
- - Python3
- - Golang
+ - Python
+ - golang
 keywords: LeetCode
 description: 大佬的代码tql!!!
 photos: https://i.loli.net/2021/03/28/qpfvKYSrgzHm2Bn.jpg
@@ -38,15 +38,15 @@ int next()将指针向右移动，然后返回指针处的数字。
 [null, 3, 7, true, 9, true, 15, true, 20, false]
 
 解释
-BSTIterator bSTIterator = new BSTIterator([7, 3, 15, null, null, 9, 20]);
-bSTIterator.next();    // 返回 3
-bSTIterator.next();    // 返回 7
+BSTIterator bSTIterator = new BSTIterator([7, 3, 15, null, null, 9, 20]); 
+bSTIterator.next(); // 返回 3
+bSTIterator.next(); // 返回 7
 bSTIterator.hasNext(); // 返回 True
-bSTIterator.next();    // 返回 9
+bSTIterator.next(); // 返回 9
 bSTIterator.hasNext(); // 返回 True
-bSTIterator.next();    // 返回 15
+bSTIterator.next(); // 返回 15
 bSTIterator.hasNext(); // 返回 True
-bSTIterator.next();    // 返回 20
+bSTIterator.next(); // 返回 20
 bSTIterator.hasNext(); // 返回 False
 
 ## 解题
@@ -125,8 +125,8 @@ func (b *BSTIterator) inOrder(root *TreeNode) {
 
 在设计迭代器时, 尽量避免提前把所有的值都取出来, 最好能设计成遍历过程中求 next 节点. 因此使用迭代来实现:
 
-- 把**递归**转成**迭代**, 使用栈实现
-- 迭代总体思路就是: 栈中只保留**左节点**
+* 把**递归**转成**迭代**, 使用栈实现
+* 迭代总体思路就是: 栈中只保留**左节点**
 
 代码实现为:
 
