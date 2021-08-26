@@ -5,19 +5,19 @@ author: Ranshi
 avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
-authorDesc: 
+authorDesc:
 categories: 技术
 comments: true
-tags: 
- - LeetCode
- - Python
- - 滑动窗口
+tags:
+  - LeetCode
+  - Python
+  - 滑动窗口
 keywords: LeetCode
 description: 滑动窗口滑动窗口滑动窗口!
 photos: https://i.loli.net/2021/02/05/dRWjIPvaNnAQF1K.jpg
 ---
 
-今天在清理以前没做完的LeetCode题目时, 发现了这么一道困难题... 于是开始写题时间.
+今天在清理以前没做完的 LeetCode 题目时, 发现了这么一道困难题... 于是开始写题时间.
 
 ## 题目描述
 
@@ -71,7 +71,7 @@ class Solution:
 
 思路很暴力, 就是遍历所有子串. 去其中符合条件的最小的, 如果以前的答案包含在子串中, 则这个子串不考虑.
 
-然后想到了滑动窗口来优化, 于是走上了漫漫改bug之路.
+然后想到了滑动窗口来优化, 于是走上了漫漫改 bug 之路.
 
 发现自己写的滑动窗口还是超时了... 好丢人
 
@@ -105,7 +105,7 @@ class Solution:
         return res
 ```
 
-自己最终改良的滑动窗口, 提交后终于是过了, 但是时间不是很理想, 只有20%
+自己最终改良的滑动窗口, 提交后终于是过了, 但是时间不是很理想, 只有 20%
 
 ```py
 # 自己改良的滑动窗口，每次更新不重新生成Counter对象了，改为修改Counter对象的值... 这么想我刚才好蠢，

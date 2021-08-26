@@ -5,29 +5,29 @@ author: Ranshi
 avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
-authorDesc: 
+authorDesc:
 categories: 技术
 comments: true
-tags: 
- - LeetCode
- - Python
- - golang
+tags:
+  - LeetCode
+  - Python
+  - golang
 keywords: LeetCode
 description: 大佬的代码tql!!!
 photos: https://i.loli.net/2021/03/28/qpfvKYSrgzHm2Bn.jpg
 ---
 
-# leetcode刷题(173. 二叉搜索树迭代器)
+# leetcode 刷题(173. 二叉搜索树迭代器)
 
 ## 题目
 
-实现一个二叉搜索树迭代器类BSTIterator ，表示一个按中序遍历二叉搜索树（BST）的迭代器：
+实现一个二叉搜索树迭代器类 BSTIterator ，表示一个按中序遍历二叉搜索树（BST）的迭代器：
 BSTIterator(TreeNode root) 初始化 BSTIterator 类的一个对象。BST 的根节点 root 会作为构造函数的一部分给出。指针应初始化为一个不存在于 BST 中的数字，且该数字小于 BST 中的任何元素。
 boolean hasNext() 如果向指针右侧遍历存在数字，则返回 true ；否则返回 false 。
 int next()将指针向右移动，然后返回指针处的数字。
 注意，指针初始化为一个不存在于 BST 中的数字，所以对 next() 的首次调用将返回 BST 中的最小元素。
 
-你可以假设 next() 调用总是有效的，也就是说，当调用 next() 时，BST 的中序遍历中至少存在一个下一个数字。
+你可以假设  next()  调用总是有效的，也就是说，当调用 next()  时，BST 的中序遍历中至少存在一个下一个数字。
 
 ## 实例
 
@@ -38,7 +38,7 @@ int next()将指针向右移动，然后返回指针处的数字。
 [null, 3, 7, true, 9, true, 15, true, 20, false]
 
 解释
-BSTIterator bSTIterator = new BSTIterator([7, 3, 15, null, null, 9, 20]); 
+BSTIterator bSTIterator = new BSTIterator([7, 3, 15, null, null, 9, 20]);
 bSTIterator.next(); // 返回 3
 bSTIterator.next(); // 返回 7
 bSTIterator.hasNext(); // 返回 True
@@ -119,14 +119,14 @@ func (b *BSTIterator) inOrder(root *TreeNode) {
 
 ### 大佬的解法
 
-#### leetcode大佬的解法(Python3)
+#### leetcode 大佬的解法(Python3)
 
 在迭代时计算 next 节点的值:
 
 在设计迭代器时, 尽量避免提前把所有的值都取出来, 最好能设计成遍历过程中求 next 节点. 因此使用迭代来实现:
 
-* 把**递归**转成**迭代**, 使用栈实现
-* 迭代总体思路就是: 栈中只保留**左节点**
+- 把**递归**转成**迭代**, 使用栈实现
+- 迭代总体思路就是: 栈中只保留**左节点**
 
 代码实现为:
 

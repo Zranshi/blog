@@ -5,12 +5,12 @@ author: Ranshi
 avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
-authorDesc: 
+authorDesc:
 categories: 技术
 comments: true
-tags: 
- - 蓝桥杯
- - Python
+tags:
+  - 蓝桥杯
+  - Python
 keywords: 比赛
 description: 复盘12届蓝桥杯Python组,看看自己能否做得更好.
 photos: https://i.loli.net/2021/04/19/S2hXdi7eWnzu5Fo.png
@@ -18,15 +18,15 @@ photos: https://i.loli.net/2021/04/19/S2hXdi7eWnzu5Fo.png
 
 ## 前言
 
-以前都是报名第 C++ B组的, 因为自己本身对Python更感兴趣, 所以这次选择报名Python试试, 反正钱是由学院出的, 我就当是尝试一下呗.
+以前都是报名第 C++ B 组的, 因为自己本身对 Python 更感兴趣, 所以这次选择报名 Python 试试, 反正钱是由学院出的, 我就当是尝试一下呗.
 
-结果这次就翻车了, 好多题没做出来. 可能是因为Python没有分组的原因吧, 或者我被分到了 A 组, 看了一下 C++ A组的题目, 感觉果然是上当了, 和A 组的题目基本是一样的, 唉, 只能祈求能拿个奖水一下了.
+结果这次就翻车了, 好多题没做出来. 可能是因为 Python 没有分组的原因吧, 或者我被分到了 A 组, 看了一下 C++ A 组的题目, 感觉果然是上当了, 和 A 组的题目基本是一样的, 唉, 只能祈求能拿个奖水一下了.
 
-第一次参加蓝桥杯Python组, 不知道怎么书写, 就按照自己舒服的格式来了.
+第一次参加蓝桥杯 Python 组, 不知道怎么书写, 就按照自己舒服的格式来了.
 
 ## 解题
 
------
+---
 
 ### A 卡片
 
@@ -55,7 +55,7 @@ def A():
         index += 1
 ```
 
------
+---
 
 ### B 直线
 
@@ -65,9 +65,9 @@ def A():
 
 #### 赛后解答
 
-没想到意外的还挺简单的, 怎么办, 5分没有了
+没想到意外的还挺简单的, 怎么办, 5 分没有了
 
-我是将所有的直线都化作 y = ax + b 的形式, 这样 a,b 就不会有重复, 别人说的精度问题, 我没有遇到, 可能python不存在精度问题吧.
+我是将所有的直线都化作 y = ax + b 的形式, 这样 a,b 就不会有重复, 别人说的精度问题, 我没有遇到, 可能 python 不存在精度问题吧.
 
 ```python
 def B():
@@ -89,19 +89,19 @@ def B():
     print(len(s) + res)
 ```
 
------
+---
 
 ### C 货物摆放
 
 ![C](https://i.loli.net/2021/04/19/dylpUcwgihZAJW3.png)
 
-我注意到i，j，k都是 Num 到因数，而且两两相乘也是 Num 的因数
+我注意到 i，j，k 都是 Num 到因数，而且两两相乘也是 Num 的因数
 
 我的做法就是用一个集合存储 2021041820210418 的所有因子，然后用三重循环暴力
 
 需要注意的是一定不能强行遍历到 Num，肯定跑不出来的，在每次存因子时保存对应的因子就好了。
 
-因为顺序不同算不同方案，所以直接暴力😂
+因为顺序不同算不同方案，所以直接暴力 😂
 
 ```python
 def C():
@@ -114,7 +114,7 @@ def C():
         if Num % i == 0:
             factors.add(i)
             factors.add(Num // i)
-    
+
     res = 0
 
     for i in factors:
@@ -125,13 +125,13 @@ def C():
     print(res)
 ```
 
------
+---
 
 ### D 路径
 
 ![D](https://i.loli.net/2021/04/19/m7Hfk2qsThwo9OY.png)
 
-DP题, 在leetcode上练习了一个多月DP的我只想说, 下一个!
+DP 题, 在 leetcode 上练习了一个多月 DP 的我只想说, 下一个!
 
 ```python
 def D():
@@ -150,21 +150,21 @@ def D():
     print(dp[1])
 ```
 
------
+---
 
 ### E 回路计算
 
 ![E](https://i.loli.net/2021/04/19/xU3FDj5QlnaCoBv.png)
 
-这道题想了一个多小时, 写出来一个肯定暴时间的, Python跑了20分钟, 硬是没跑出来
+这道题想了一个多小时, 写出来一个肯定暴时间的, Python 跑了 20 分钟, 硬是没跑出来
 
------
+---
 
 ### F 时间
 
 ![F](https://i.loli.net/2021/04/19/UGXP5b1HZKWeas9.png)
 
-没啥好说的，1秒=1000毫秒 考场的时候用样例推一下就好了
+没啥好说的，1 秒=1000 毫秒 考场的时候用样例推一下就好了
 
 ```python
 def F():
@@ -185,7 +185,7 @@ def F():
     print(s)
 ```
 
------
+---
 
 ### G 杨辉三角
 
@@ -214,7 +214,7 @@ def G():
             index += len(pascal)
 ```
 
------
+---
 
 ### H 左孩子右兄弟
 
@@ -254,7 +254,7 @@ def H():
     print(getMaxLength(tree[1]) - 1)
 ```
 
------
+---
 
 ### I 异或数列
 
@@ -264,7 +264,7 @@ def H():
 
 没时间了, 没看题
 
------
+---
 
 ### J 括号序列
 

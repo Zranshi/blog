@@ -5,23 +5,24 @@ author: Ranshi
 avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
-authorDesc: 
+authorDesc:
 categories: 技术
 comments: true
-tags: 
- - golang
- - Gin
+tags:
+  - golang
+  - Gin
 keywords: Go源码阅读
 description: Ranshi努力中...学习Go源码, 为了找到一个好工作!
 photos: https://i.loli.net/2021/01/29/glJyPCvVH3dj4WK.jpg
 ---
-# Go源码学习 --Gin框架
 
-学习Go真实一个不可思议的事情, 不得不说果然配置环境是后端最难的事情. 我曾经为了Java环境困扰了一个星期, 如今也为Go的module模式配置了半天. 但是不得不说Go也是一个很魔幻的语言, 我第一次知道可以这么简单地创建一个后端服务器, 基本上学习Gin框架只用了2个小时... 差不多后端基础功能就知道是个怎么回事了.
+# Go 源码学习 --Gin 框架
+
+学习 Go 真是一个不可思议的事情, 不得不说果然配置环境是后端最难的事情. 我曾经为了 Java 环境困扰了一个星期, 如今也为 Go 的 module 模式配置了半天. 但是不得不说 Go 也是一个很魔幻的语言, 我第一次知道可以这么简单地创建一个后端服务器, 基本上学习 Gin 框架只用了 2 个小时... 差不多后端基础功能就知道是个怎么回事了.
 
 但是学得这么快, 总感觉心里不踏实. 其实在学习的过程中, 基本都是使用大佬编写的轮子. 然后感觉自己也没学什么东西, 于是打算开始学习源码, 来攀登巨人的高峰!
 
-## 一个简单的Demo
+## 一个简单的 Demo
 
 ```go
 func main() {
@@ -31,13 +32,13 @@ func main() {
 ```
 
 ![代码](https://i.loli.net/2021/01/29/tW4qXoFBja68xsR.png)
-由此我们可以看到, Gin的基础功能可以分为两个阶段: Default()函数用来创建实例; Run()函数用来运行服务器.
+由此我们可以看到, Gin 的基础功能可以分为两个阶段: Default()函数用来创建实例; Run()函数用来运行服务器.
 
-Gin框架非常简洁, 仅仅使用了两个函数就能实现一个简单的服务器功能. 对比其他语言的后端框架可以称得上是精简了. 正是因为Gin已经帮我们把功能封装完毕了, 我们才需要去深入了解其原理.
+Gin 框架非常简洁, 仅仅使用了两个函数就能实现一个简单的服务器功能. 对比其他语言的后端框架可以称得上是精简了. 正是因为 Gin 已经帮我们把功能封装完毕了, 我们才需要去深入了解其原理.
 
 ## gin.Default()
 
-`gin.Default()`创建了一个**Engine**实例, 然后使用了**Logger**和**Recovery**中间件. `gin.Default()`和`gin.New()` 功能类似. 实际上, `gin.Default()`函数只是在调用了`gin.New()`基础上使用了`engine.Use(Logger(),Recovery())`, 接下来查看gin.Defualt源码.
+`gin.Default()`创建了一个**Engine**实例, 然后使用了**Logger**和**Recovery**中间件. `gin.Default()`和`gin.New()` 功能类似. 实际上, `gin.Default()`函数只是在调用了`gin.New()`基础上使用了`engine.Use(Logger(),Recovery())`, 接下来查看 gin.Defualt 源码.
 
 ```go
 // 默认返回一个引擎实例, 并且已经连接了Logger和Recovery中间件.
@@ -83,7 +84,7 @@ func New() *Engine {
 }
 ```
 
-可以看到实际上是初始化并返回了一个Engine对象.
+可以看到实际上是初始化并返回了一个 Engine 对象.
 
 再来看看`Use()`函数.
 
@@ -124,10 +125,11 @@ func (engine *Engine) Run(addr ...string) (err error) {
 	return
 }
 ```
-在Go中只要实现ServeHTTP就可以, 所以我们看一看:
+
+在 Go 中只要实现 ServeHTTP 就可以, 所以我们看一看:
 
 ```go
-// ServeHTTP符合http.Handler接口 
+// ServeHTTP符合http.Handler接口
 func (engine *Engine) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 	c := engine.pool.Get().(*Context)
 	c.writermem.reset(w)
@@ -201,4 +203,4 @@ func (engine *Engine) handleHTTPRequest(c *Context) {
 }
 ```
 
-大致的流程就是从路由里找出handler, 然后进行处理. 其中路由使用httprouter实现，使用的数据结构是基数树(radix tree).
+大致的流程就是从路由里找出 handler, 然后进行处理. 其中路由使用 httprouter 实现，使用的数据结构是基数树(radix tree).

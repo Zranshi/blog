@@ -5,13 +5,13 @@ author: ranshi
 avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
-authorDesc: 
+authorDesc:
 categories: 技术
 comments: true
-tags: 
- - Python
- - 进程
- - PySimpleGUI
+tags:
+  - Python
+  - 进程
+  - PySimpleGUI
 keywords: Python
 description: 通过PySimpleGUI演示进程的通信
 photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.3/2020.11.08/56.jpg
@@ -19,7 +19,7 @@ photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.3/2020.11.08/56.jpg
 
 ## 界面设计
 
-界面设计使用了[PySimpleGUI库](https://github.com/PySimpleGUI/PySimpleGUI),详情使用方式请查阅[https://pysimplegui.readthedocs.io/en/latest/](https://pysimplegui.readthedocs.io/en/latest/)
+界面设计使用了[PySimpleGUI 库](https://github.com/PySimpleGUI/PySimpleGUI),详情使用方式请查阅[https://pysimplegui.readthedocs.io/en/latest/](https://pysimplegui.readthedocs.io/en/latest/)
 
 ### 主进程
 

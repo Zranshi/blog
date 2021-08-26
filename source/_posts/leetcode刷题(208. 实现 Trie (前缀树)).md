@@ -5,13 +5,13 @@ author: Ranshi
 avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
-authorDesc: 
+authorDesc:
 categories: 技术
 comments: true
-tags: 
- - LeetCode
- - 前缀树\字典树
- - golang
+tags:
+  - LeetCode
+  - 前缀树\字典树
+  - golang
 keywords: LeetCode
 description: 学习前缀树
 photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.43/2020.12.16/52.jpg
@@ -23,15 +23,15 @@ photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.43/2020.12.16/52.jpg
 
 在计算机科学中，trie，又称前缀树或字典树，是一种有序树，用于保存关联数组，其中的键通常是字符串。与二叉查找树不同，键不是直接保存在节点中，而是由节点在树中的位置决定。一个节点的所有子孙都有相同的前缀，也就是这个节点对应的字符串，而根节点对应空字符串。一般情况下，不是所有的节点都有对应的值，只有叶子节点和部分内部节点所对应的键才有相关的值。
 
-Trie这个术语来自于retrieval。根据词源学，trie的发明者Edward Fredkin把它读作/ˈtriː/ "tree"。[1][2]但是，其他作者把它读作/ˈtraɪ/ "try"。
+Trie 这个术语来自于 retrieval。根据词源学，trie 的发明者 Edward Fredkin 把它读作/ˈtriː/ "tree"。[1][2]但是，其他作者把它读作/ˈtraɪ/ "try"。
 
-在图示中，键标注在节点中，值标注在节点之下。每一个完整的英文单词对应一个特定的整数。Trie可以看作是一个确定有限状态自动机，尽管边上的符号一般是隐含在分支的顺序中的。
+在图示中，键标注在节点中，值标注在节点之下。每一个完整的英文单词对应一个特定的整数。Trie 可以看作是一个确定有限状态自动机，尽管边上的符号一般是隐含在分支的顺序中的。
 
-键不需要被显式地保存在节点中。图示中标注出完整的单词，只是为了演示trie的原理。
+键不需要被显式地保存在节点中。图示中标注出完整的单词，只是为了演示 trie 的原理。
 
-trie中的键通常是字符串，但也可以是其它的结构。trie的算法可以很容易地修改为处理其它结构的有序序列，比如一串数字或者形状的排列。比如，bitwise trie中的键是一串比特，可以用于表示整数或者内存地址。
+trie 中的键通常是字符串，但也可以是其它的结构。trie 的算法可以很容易地修改为处理其它结构的有序序列，比如一串数字或者形状的排列。比如，bitwise trie 中的键是一串比特，可以用于表示整数或者内存地址。
 
-## [leetcode题目](https://leetcode-cn.com/problems/implement-trie-prefix-tree/submissions/)
+## [leetcode 题目](https://leetcode-cn.com/problems/implement-trie-prefix-tree/submissions/)
 
 Trie（发音类似 "try"）或者说 前缀树 是一种树形数据结构，用于高效地存储和检索字符串数据集中的键。这一数据结构有相当多的应用情景，例如自动补完和拼写检查。
 
@@ -41,7 +41,7 @@ Trie() 初始化前缀树对象。
 
 - void insert(String word) 向前缀树中插入字符串 word 。
 - boolean search(String word) 如果字符串 word 在前缀树中，返回 true（即，在检索之前已经插入）；否则，返回 false 。
-- boolean startsWith(String prefix) 如果之前已经插入的字符串 word 的前缀之一为 prefix ，返回 true ；否则，返回 false 。
+- boolean startsWith(String prefix) 如果之前已经插入的字符串  word 的前缀之一为 prefix ，返回 true ；否则，返回 false 。
 
 ## 实现
 
@@ -112,9 +112,9 @@ func (t *Trie) StartsWith(prefix string) bool {
 
 ```
 
------
+---
 
-使用map存储
+使用 map 存储
 
 ```Golang
 type Trie struct {
@@ -180,4 +180,4 @@ func (t *Trie) StartsWith(word string) bool {
 
 ## 分析
 
-总体上来说使用数组存储时间更快, 但是使用map存储空间更小. 具体使用哪种方法根据需求改变.
+总体上来说使用数组存储时间更快, 但是使用 map 存储空间更小. 具体使用哪种方法根据需求改变.

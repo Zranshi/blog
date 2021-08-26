@@ -8,12 +8,13 @@ authorAbout: 我是博主的爹爹!
 authorDesc: 博主是我老婆!
 categories: 生活
 comments: true
-tags: 
- - 音乐
+tags:
+  - 音乐
 keywords: 音乐分享
 description: 分享纯音乐《Maria and the Violin's String》
 photos: https://m.media-amazon.com/images/I/311PNdZ6e9L._SS500_.jpg
 ---
+
 ## 《Maria and the Violin's String》
 
 推荐一首最近常听的纯音乐《Maria and the Violin's String》
