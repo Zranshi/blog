@@ -1,8 +1,8 @@
 ---
-title: {{ title }}
-date: {{ date }}
-keywords: 
-description: 
+title: { { title } }
+date: { { date } }
+keywords:
+description:
 comments: false
-photos: 
+photos:
 ---
