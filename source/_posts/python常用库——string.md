@@ -15,7 +15,8 @@ description: Python常用库学习
 photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/89193760_p0.jpg
 ---
 
-string 库是一个 Python 标准库, 主要包含[字符常量](#字符常量)和[Formatter](#formatter), 这里我们主要了解 Formatter.
+string 库是一个 Python 标准库, 主要包
+含[字符常量](#字符常量)和[Formatter](#formatter), 这里我们主要了解 Formatter.
 
 ## 字符常量
 
@@ -66,7 +67,8 @@ print(list(string.printable))
 
 ### 基础使用
 
-Formatter 是 string.py 包中定义的一个类, 其中定义了一个用于格式化字符串的方法: format(这是我们主要使用的 API), 这是一个简单的例子:
+Formatter 是 string.py 包中定义的一个类, 其中定义了一个用于格式化字符串的方法:
+format(这是我们主要使用的 API), 这是一个简单的例子:
 
 ```py
 f = string.Formatter()
@@ -78,7 +80,10 @@ print(f.format("{greet}, {name}", name="Ranshi", greet=morning))
 # Good morning, Ranshi
 ```
 
-根据输出结果可以看出, 两个字符串被拼接起来了. 但是这种形式看起来并不是非常优雅, 因为我们还需要定义一个 string.Formatter 的对象, 然后才调用 format 方法. 其实, Python 针对 str 对象就实现了 format 方法, 我们可以直接调用一个 str 对象的 format 方法.
+根据输出结果可以看出, 两个字符串被拼接起来了. 但是这种形式看起来并不是非常优雅,
+因为我们还需要定义一个 string.Formatter 的对象, 然后才调用 format 方法. 其实,
+Python 针对 str 对象就实现了 format 方法, 我们可以直接调用一个 str 对象的 format
+方法.
 
 ```py
 morning = "Good morning"
@@ -102,7 +107,8 @@ print(f"{morning}, {'Ranshi'}")
 
 相比起来是不是非常简单, 下文中我们就都用这种形式来书写格式化字符串.
 
-在`{}`中可以使用"格式规格", 用于定义单个值如果格式到字符串中. 如果未指定则默认调用`str()`函数.
+在`{}`中可以使用"格式规格", 用于定义单个值如果格式到字符串中. 如果未指定则默认调
+用`str()`函数.
 
 一般形式如下:
 
@@ -112,7 +118,8 @@ print(f"{morning}, {'Ranshi'}")
 
 格式化字符串有两种定位方式.
 
-一种是将 format 函数接收的参数当作一个列表, 然后依次显示在每个`{}`中, 而`{}`中也可以携带数字, 表示替换的是列表中的第几个元素.
+一种是将 format 函数接收的参数当作一个列表, 然后依次显示在每个`{}`中, 而`{}`中也
+可以携带数字, 表示替换的是列表中的第几个元素.
 
 ```py
 print("{0}, {1}, {2}".format("a", "b", "c"))
@@ -139,7 +146,8 @@ print("{greet}, {name}".format(greet="goodbye", name="Ranshi"))
 # goodbye, Ranshi
 ```
 
-由于传入的参数是一个解包的列表或字典, 因此也可以将列表或字典解包后作为 format 函数的参数.
+由于传入的参数是一个解包的列表或字典, 因此也可以将列表或字典解包后作为 format 函
+数的参数.
 
 ```py
 lst = ["a", "b", "c"]
@@ -157,7 +165,9 @@ print("{greet}, {name}".format(**d))
 
 #### 转换符
 
-在`{}`中, 可以设置转换符, 设置后表达式结果会先转换, 再格式化. 转换符一共有 `s | r | a` 三种, 分别表示调用`str()`, `repr()`, `ascii()`. 在转换符前使用 `!`表示需要转换.
+在`{}`中, 可以设置转换符, 设置后表达式结果会先转换, 再格式化. 转换符一共有
+`s | r | a` 三种, 分别表示调用`str()`, `repr()`, `ascii()`. 在转换符前使用 `!`表
+示需要转换.
 
 ```py
 greet = "你好,\tRanshi"
@@ -178,7 +188,8 @@ print(f"{greet!a}")
 
 #### `=` 格式化
 
-在 Python 3.8 版本中, 可以使用 `=` 来进行格式化. 可以将变量格式化成 `s=str(s)` 的字符串. 并且可以在其中任意位置加入字符串.
+在 Python 3.8 版本中, 可以使用 `=` 来进行格式化. 可以将变量格式化成 `s=str(s)`
+的字符串. 并且可以在其中任意位置加入字符串.
 
 ```py
 result = 15 * 32

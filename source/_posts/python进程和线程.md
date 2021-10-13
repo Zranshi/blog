@@ -19,7 +19,9 @@ photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.3/2020.11.08/56.jpg
 
 ## 界面设计
 
-界面设计使用了[PySimpleGUI 库](https://github.com/PySimpleGUI/PySimpleGUI),详情使用方式请查阅[https://pysimplegui.readthedocs.io/en/latest/](https://pysimplegui.readthedocs.io/en/latest/)
+界面设计使用了[PySimpleGUI 库](https://github.com/PySimpleGUI/PySimpleGUI),详情
+使用方式请查
+阅[https://pysimplegui.readthedocs.io/en/latest/](https://pysimplegui.readthedocs.io/en/latest/)
 
 ### 主进程
 

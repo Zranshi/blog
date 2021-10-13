@@ -20,7 +20,9 @@ photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.3/2020.11.08/59.jpg
 
 ---
 
-跑团是对 TRPG（桌上角色扮演游戏）的一种俗称，是一种流行的桌上游戏形式。游戏往往由三五人组成，其中一人担当游戏的主持人，另外几人担当玩家。进行跑团游戏时，常用到的游戏道具有地图、骰子和规则书等。
+跑团是对 TRPG（桌上角色扮演游戏）的一种俗称，是一种流行的桌上游戏形式。游戏往往
+由三五人组成，其中一人担当游戏的主持人，另外几人担当玩家。进行跑团游戏时，常用到
+的游戏道具有地图、骰子和规则书等。
 
 ## 视频资源收录（追番）
 
@@ -33,14 +35,13 @@ photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.3/2020.11.08/59.jpg
 
 ### 失落的黑莱尔([已完结](https://www.bilibili.com/video/av12942981))
 
-<< [动漫人物][s] | [搞笑][s] | [无厘头][s] >>
-序章传送门：
+<< [动漫人物][s] | [搞笑][s] | [无厘头][s] >> 序章传送门：
 [失落的黑莱尔 01：我是不会带帝王蟹调查克苏鲁的](https://www.bilibili.com/video/av12942981)
 
 ### THEY ARE NUTS!!血色婚礼（[未完结](https://www.bilibili.com/video/av330338514)）
 
-<< [cp][s] | [磕男男 CP！][s] | [磕男男 CP！][s] | [磕男男 CP！][s]>>
-序章传送门：
+<< [cp][s] | [磕男男 CP！][s] | [磕男男 CP！][s] | [磕男男 CP！][s]>> 序章传送门
+：
 [【克苏鲁神话 TRPG】THEY ARE NUTS!!血色婚礼【第一话】](https://www.bilibili.com/video/av585079751)
 
 [s]: https://zranshi.github.io/2020/11/11/COC%E8%B7%91%E5%9B%A2/

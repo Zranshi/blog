@@ -16,9 +16,11 @@ description: hexo-sakura主题使用教程
 photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.3/2020.11.08/138.jpg
 ---
 
-hexo-theme-sakura 主题 [English document](https://github.com/honjun/hexo-theme-sakura/blob/master/README.md)
+hexo-theme-sakura 主题
+[English document](https://github.com/honjun/hexo-theme-sakura/blob/master/README.md)
 
-基于 WordPress 主题[Sakura](https://github.com/mashirozx/Sakura/)修改成 Hexo 的主题。
+基于 WordPress 主题[Sakura](https://github.com/mashirozx/Sakura/)修改成 Hexo 的
+主题。
 
 [demo 预览](https://sakura.hojun.cn)
 
@@ -47,7 +49,10 @@ hexo-theme-sakura 主题 [English document](https://github.com/honjun/hexo-theme
 
 如果喜欢 hexo-theme-sakura 主题，可以考虑资助一下哦~非常感激！
 
-[paypal](https://www.paypal.me/hojuncn) | [Alipay 支付宝](https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/AliPayQR.jpg) | [WeChat Pay 微信支付](https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/WeChanSQ.jpg)
+[paypal](https://www.paypal.me/hojuncn) |
+[Alipay 支付宝](https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/AliPayQR.jpg)
+|
+[WeChat Pay 微信支付](https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/donate/WeChanSQ.jpg)
 
 ## 未完善的使用教程
 
@@ -55,9 +60,12 @@ hexo-theme-sakura 主题 [English document](https://github.com/honjun/hexo-theme
 
 ## 1、主题下载安装
 
-[hexo-theme-sakura](https://github.com/honjun/hexo-theme-sakura)建议下载压缩包格式，因为除了主题内容还有些 source 的配置对新手来说比较太麻烦，直接下载解压就省去这些麻烦咯。
+[hexo-theme-sakura](https://github.com/honjun/hexo-theme-sakura)建议下载压缩包格
+式，因为除了主题内容还有些 source 的配置对新手来说比较太麻烦，直接下载解压就省去
+这些麻烦咯。
 
-下载好后解压到博客根目录（不是主题目录哦，重复的选择替换）。接着在命令行（cmd、bash）运行`npm i`安装依赖。
+下载好后解压到博客根目录（不是主题目录哦，重复的选择替换）。接着在命令行
+（cmd、bash）运行`npm i`安装依赖。
 
 ## 2、主题配置
 
@@ -278,7 +286,10 @@ v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
 
 ![](https://wx2.sinaimg.cn/large/006bYVyvly1g07azb2399j31040jgazs.jpg)
 
-配置项在\themes\Sakura\languages\zh-cn.yml 里。新增一个分类或标签最好加下哦，当然嫌麻烦可以直接使用一张默认图片（可以改主题或者直接把 404 图片替换下，征求下意见要不要给这个在配置文件中加个开关，可以 issue 或群里提出来），现在是没设置的话会使用那种倒立小狗 404 哦。
+配置项在\themes\Sakura\languages\zh-cn.yml 里。新增一个分类或标签最好加下哦，当
+然嫌麻烦可以直接使用一张默认图片（可以改主题或者直接把 404 图片替换下，征求下意
+见要不要给这个在配置文件中加个开关，可以 issue 或群里提出来），现在是没设置的话
+会使用那种倒立小狗 404 哦。
 
 ```yml
 #category
@@ -304,8 +315,8 @@ v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
 
 ## 单页面封面配置
 
-![](https://ws3.sinaimg.cn/large/006bYVyvly1g07b1pi619j31080jge4u.jpg)
-如留言板页面页面，位于 source 下的 comment 下，打开 index.md 如下：
+![](https://ws3.sinaimg.cn/large/006bYVyvly1g07b1pi619j31080jge4u.jpg) 如留言板
+页面页面，位于 source 下的 comment 下，打开 index.md 如下：
 
 ```md
 ---
@@ -411,13 +422,15 @@ links:
 
 ## 写文章配置
 
-主题集成了个人插件 hexo-tag-bili 和 hexo-tag-fancybox_img。其中 hexo-tag-bili 用来在文章或单页面中插入 B 站外链视频，使用语法如下：
+主题集成了个人插件 hexo-tag-bili 和 hexo-tag-fancybox_img。其中 hexo-tag-bili 用
+来在文章或单页面中插入 B 站外链视频，使用语法如下：
 
 ```md
 {% bili video_id [page] %}
 ```
 
-详细使用教程详见[hexo-tag-bili](https://github.com/honjun/hexo-tag-bili/blob/master/README-zh_cn.md)。
+详细使用教程详
+见[hexo-tag-bili](https://github.com/honjun/hexo-tag-bili/blob/master/README-zh_cn.md)。
 
 hexo-tag-fancybox_img 用来在文章或单页面中图片，使用语法如下：
 
@@ -425,7 +438,8 @@ hexo-tag-fancybox_img 用来在文章或单页面中图片，使用语法如下�
 {% fb_img src [caption] %}
 ```
 
-详细使用教程详见[hexo-tag-fancybox_img](https://github.com/honjun/hexo-tag-fancybox_img/blob/master/README-zh_cn.md)
+详细使用教程详
+见[hexo-tag-fancybox_img](https://github.com/honjun/hexo-tag-fancybox_img/blob/master/README-zh_cn.md)
 
 ## 还有啥，一时想不起来
 
