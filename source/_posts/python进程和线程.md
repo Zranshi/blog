@@ -2,7 +2,7 @@
 title: PySimpleGUI演示多进程
 date: 2020-11-26 20:29:06
 author: ranshi
-avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/custom/avatar.jpg
+avatar: https://i.loli.net/2021/10/27/quMyIgbaD6tURx5.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
 authorDesc:

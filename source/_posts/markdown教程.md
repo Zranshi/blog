@@ -1,7 +1,7 @@
 ---
 title: Markdown教程
 author: ranshi
-avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/custom/avatar.jpg
+avatar: https://i.loli.net/2021/10/27/quMyIgbaD6tURx5.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
 categories: 技术
@@ -24,9 +24,9 @@ markdown 语言。
 ## Markdown 说明
 
 Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
-Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。
-Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。
-Markdown 编写的文档后缀为 .md, 或.markdown。
+Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。 Markdown 编写的文
+档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。 Markdown 编写的文档后
+缀为 .md, 或.markdown。
 
 ---
 
@@ -69,14 +69,8 @@ __粗体文本__
 ___粗斜体文本___
 ```
 
-显示效果分别为：斜体：
-_斜体文本_
-_斜体文本_
-粗体：
-**粗体文本**
-**粗体文本**
-粗斜体：
-**_粗斜体文本_**
+显示效果分别为：斜体： _斜体文本_ _斜体文本_ 粗体： **粗体文本** **粗体文本** 粗
+斜体： **_粗斜体文本_**
 
 ### markdown 分割线
 
@@ -98,11 +92,9 @@ _斜体文本_
 
 ### markdown 特殊字体
 
-~~删除线文本~~
-`~~删除线文本~~`
+~~删除线文本~~ `~~删除线文本~~`
 
-<u>下划线文本</u>
-`<u>下划线文本</u>`
+<u>下划线文本</u> `<u>下划线文本</u>`
 
 注脚[^脚注]
 
@@ -196,8 +188,7 @@ _斜体文本_
 
 - 第一项
 
-> 成为更好的自己
-> 才能守护最好的你
+> 成为更好的自己才能守护最好的你
 
 ---
 
@@ -234,9 +225,8 @@ _斜体文本_
   [s]: https://github.com/Zranshi
 ```
 
-这个链接用 r 作为网址变量 [github][r]
-这个链接用 s 作为网址变量 [ranshi][s]
-然后在文档的结尾为变量赋值（网址）
+这个链接用 r 作为网址变量 [github][r] 这个链接用 s 作为网址变量 [ranshi][s] 然后
+在文档的结尾为变量赋值（网址）
 
 [r]: https://github.com/
 [s]: https://github.com/Zranshi

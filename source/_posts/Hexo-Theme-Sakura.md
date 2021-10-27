@@ -1,7 +1,7 @@
 ---
 title: Hexo-Theme-Sakura
 author: hojun
-avatar: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg
+avatar: https://i.loli.net/2021/10/27/quMyIgbaD6tURx5.jpg
 authorLink: hojun.cn
 authorAbout: 一个好奇的人
 authorDesc: 一个好奇的人
