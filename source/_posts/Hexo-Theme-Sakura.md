@@ -15,7 +15,6 @@ keywords: Sakura
 description: hexo-sakura主题使用教程
 photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.3/2020.11.08/138.jpg
 ---
-
 hexo-theme-sakura 主题
 [English document](https://github.com/honjun/hexo-theme-sakura/blob/master/README.md)
 
@@ -61,7 +60,7 @@ hexo-theme-sakura 主题
 [hexo-theme-sakura](https://github.com/honjun/hexo-theme-sakura)建议下载压缩包格式，因为除了主题内容
 还有些 source 的配置对新手来说比较太麻烦，直接下载解压就省去这些麻烦咯。
 
-下载好后解压到博客根目录（不是主题目录哦，重复的选择替换）。接着在命令行（cmd、bash）运行`npm i`安装
+下载好后解压到博客根目录（不是主题目录哦，重复的选择替换）。接着在命令行（cmd、bash）运行 `npm i`安装
 依赖。
 
 ## 2、主题配置

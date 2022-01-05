@@ -15,16 +15,13 @@ description: markdown常用说明
 photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.3/2020.11.08/6.jpg
 ---
 
-markdown 是一种学习成本很低的标记语言，也就是传说中的，易上手且易精通的语言。最近刚刚搭建好网站，也
-是第一次尝试写博客，打算趁此机会写一篇博客，并边写边学习 markdown 语言。
+markdown 是一种学习成本很低的标记语言，也就是传说中的，易上手且易精通的语言。最近刚刚搭建好网站，也是第一次尝试写博客，打算趁此机会写一篇博客，并边写边学习 markdown 语言。
 
 ---
 
 ## Markdown 说明
 
-Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。 Markdown 语言在 2004 由
-约翰·格鲁伯（英语：John Gruber）创建。 Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多
-种格式的文档。 Markdown 编写的文档后缀为 .md, 或.markdown。
+Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。 Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。 Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。 Markdown 编写的文档后缀为 .md, 或.markdown。
 
 ---
 
