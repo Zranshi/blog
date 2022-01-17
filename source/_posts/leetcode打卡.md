@@ -2,7 +2,7 @@
 title: leetcode打卡
 date: 2020-11-18 22:37:36
 author: ranshi
-avatar: https://i.loli.net/2021/10/27/quMyIgbaD6tURx5.jpg
+avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
 authorDesc:

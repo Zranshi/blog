@@ -2,7 +2,7 @@
 title: 我的vscode自定义化过程
 date: 2021-8-5 10:33:15
 author: Ranshi
-avatar: https://i.loli.net/2021/10/27/quMyIgbaD6tURx5.jpg
+avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
 authorDesc:

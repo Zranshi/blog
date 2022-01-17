@@ -2,7 +2,7 @@
 title: 云服务器中快速配置Oracle数据库
 date: 2021-5-31 18:27:15
 author: Ranshi
-avatar: https://i.loli.net/2021/10/27/quMyIgbaD6tURx5.jpg
+avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
 authorAbout: 成为更好的自己，才能守护最好的你
 authorDesc:

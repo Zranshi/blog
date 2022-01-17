@@ -78,12 +78,7 @@ bgclass: filter-dot
 
 # startdash url, title, desc img
 startdash:
-  - {
-      url: /theme-sakura/,
-      title: Sakura,
-      desc: 本站 hexo 主题,
-      img: /img/startdash/sakura.md.png,
-    }
+  - { url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png }
   - {
       url: https://space.bilibili.com/12804030,
       title: Bilibili,
@@ -97,13 +92,8 @@ siteBuildingTime: 03/11/2020
 #social  url, img PC端配置
 social:
   github: { url: https://github.com/Zranshi, img: /img/social/github.png }
-  wangyiyun:
-    {
-      url: https://music.163.com/#/user/home?id=319231686,
-      img: /img/social/wangyiyun.png,
-    }
-  zhihu:
-    { url: https://www.zhihu.com/people/ran-shi-2, img: /img/social/zhihu.png }
+  wangyiyun: { url: https://music.163.com/#/user/home?id=319231686, img: /img/social/wangyiyun.png }
+  zhihu: { url: https://www.zhihu.com/people/ran-shi-2, img: /img/social/zhihu.png }
 
 #social  url, img 移动端配置
 msocial:
