@@ -13,7 +13,7 @@ tags:
   - progress
 keywords: Go
 description: 准备将rs-get替换为用go语言实现，那么先从进度条开始吧！
-photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/88996856_p0.png
+photos: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/2021.5.20/82732925_p0.png
 ---
 
 ## 进度条的显示结构
