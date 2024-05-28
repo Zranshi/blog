@@ -74,7 +74,7 @@ bg:
   - https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.0/img/cover/bg9.jpg.webp
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
-bgclass: filter-dot
+bgclass: filter-dim
 
 # startdash url, title, desc img
 startdash:
@@ -110,14 +110,14 @@ msocial:
   github: { url: https://github.com/Zranshi, fa: fa-github, color: 333 }
 
 donate:
-  alipay: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.4/img/custom/donate/a.png
-  wechat: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.4/img/custom/donate/w.png
+  alipay: /img/custom/donate/a.png
+  wechat: /img/custom/donate/w.png
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
-  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4
+  url: https://ranshi-cnd-1305893362.cos.ap-guangzhou.myqcloud.com/uPic
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
-  name: mad.flv
+  name: 2024.03.02-23:32:29-910368801_nb3-1-16.mp4
 
 aplayer:
   id: 2660651585

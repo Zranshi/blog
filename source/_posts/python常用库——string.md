@@ -3,7 +3,7 @@ title: Python常用库——string
 author: ranshi
 avatar: https://cdn.jsdelivr.net/gh/Zranshi/CDN@1.45/img/custom/avatar.jpg
 authorLink: https://github.com/Zranshi
-authorAbout: 成为更好的自己，才能守护最好的你
+authorAbout: 正是你花费在玫瑰上的时间才使得你的玫瑰花珍贵无比
 categories: 技术
 date: 2021-9-26 15:15:36
 comments: true

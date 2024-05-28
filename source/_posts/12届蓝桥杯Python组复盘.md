@@ -30,7 +30,9 @@ photos: https://i.loli.net/2021/04/19/S2hXdi7eWnzu5Fo.png
 
 ### A 卡片
 
-![A](https://i.loli.net/2021/04/19/mjzXKpk3B2Ql6YV.png) 第一时间就想到了用 python 的 collections 库的 Counter 计数, 如果我是参加的 C++ 可能会专门列一个数组用来计数吧.
+![A](https://i.loli.net/2021/04/19/mjzXKpk3B2Ql6YV.png) 
+
+第一时间就想到了用 python 的 collections 库的 Counter 计数, 如果我是参加的 C++ 可能会专门列一个数组用来计数吧.
 
 ```python
 def A():
